@@ -23,7 +23,7 @@
   Например, [textlink="газовый насос" link="Pumps"] не позволит газу протекать через него, если он не подключен к электросети и в нем нет газа для перекачки.
 
   Примерами устройств, разделяющих сети труб, являются:
-  - [textlink="Газовый и Объёмный газовый насос" link="Pumps"]
+  - [textlink="Газовый и объёмный газовый насос" link="Pumps"]
   - [textlink="Газовый смеситель и фильтр" link="MixingAndFiltering"]
   - [textlink="Все клапаны" link="Valves"]
   - [textlink="Радиаторы" link="Radiators"]
@@ -31,11 +31,11 @@
   Ниже показан пример разделения сети труб на две отдельные сети труб с помощью [textlink="насоса" link="Pumps"]:
 
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 1" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Сеть 1" Rotation="90"/>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
-    <GuideEntityEmbed Entity="GasPressurePump" Caption="Network Seperator" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="Разделитель сети" Rotation="90"/>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 2" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Сеть 2" Rotation="90"/>
   </Box>
 
 </Document>
